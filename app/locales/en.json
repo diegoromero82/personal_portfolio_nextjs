@@ -1,0 +1,241 @@
+{
+  "about": {
+    "title": "¡Hi, I'm Diego!",
+    "description": "I am a technology professional with over 20 years of global experience in the IT, telecommunications, software development, customer service, electronic security, and connectivity sectors. I’ve built a versatile career in both public and private organizations, combining technical expertise with strategic vision to deliver impactful, scalable solutions.."
+  },
+  "skills": {
+    "keySkills": [
+      {
+        "title": "Project Management (5+ years)",
+        "description": "I have managed and coordinated IT and digital transformation projects in both government institutions and private companies, applying PMI methodologies and Agile frameworks. My scope has included market research, strategic planning, budgeting, vendor supervision, team leadership, and technical and executive reporting."
+      },
+      {
+        "title": "Full Stack Development (6+ years)",
+        "description": "I am a Full Stack Developer with experience in Java, .NET, JavaScript, and PL/SQL, and proficient in Oracle SQL and MS SQL Server databases. I've worked with frameworks such as Angular, Vaadin, and Blazor, as well as Low-Code platforms like Oracle APEX. I'm also skilled in managing CMS tools like WordPress and Joomla. I contribute across the entire software lifecycle—from functional analysis to deployment and continuous improvement"
+      },
+      {
+        "title": "Commercial Experience (10+ years)",
+        "description": "I have led consultative sales processes and managed corporate accounts across industrial, financial, and commercial sectors. My responsibilities included prospecting and client acquisition, technical advisory, solution design, contract negotiation, follow-up, and consistent achievement of sales and profitability goals."
+      }
+    ],
+    "certification": {
+      "text": "Certified in ISO/IEC 25000:2014 (SQuaRE).",
+      "link": "https://committee.iso.org/sites/jtc1sc7/home/projects/flagship-standards/iso-25000-square-series.html"
+    },
+    "traits": "🧠 Strategic • 🎯 Results-driven • 💬 Communicative • 🌐 Based in Bogotá • 🚀 Open to remote work"
+  },
+  "education": {
+    "title": "Education",
+    "formal": {
+      "heading": "Formal Education",
+      "items": [
+        {
+          "title": "Master’s Degree in Project Management",
+          "institution": "Politécnico Grancolombiano University Institution",
+          "status": "Currently in progress"
+        },
+        {
+          "title": "Specialization in Software Development",
+          "institution": "Corporación Universitaria Minuto de Dios (Uniminuto)",
+          "status": null
+        },
+        {
+          "title": "Specialization in Business Management",
+          "institution": "Politécnico Grancolombiano University Institution",
+          "status": null
+        },
+        {
+          "title": "Bachelor’s Degree in Business Administration",
+          "institution": "Politécnico Grancolombiano University Institution",
+          "status": null
+        },
+        {
+          "title": "Bachelor’s Degree in Electronic Engineering",
+          "institution": "Manuela Beltrán University",
+          "status": null
+        },
+        {
+          "title": "Technology in Market Management",
+          "institution": "National Learning Service (SENA)",
+          "status": null
+        }
+      ]
+    },
+    "nonFormal": {
+      "heading": "Non-Formal Education",
+      "items": [
+        {
+          "title": "ISO/IEC 25000:2014 Certification",
+          "subtitle": "Internal Auditor in Software Quality"
+        },
+        {
+          "title": "Diploma in Engineering Project Management",
+          "subtitle": "Manuela Beltrán University"
+        },
+        {
+          "title": "Path to Excellence in Project Management",
+          "subtitle": "PUC Chile / Coursera"
+        },
+        {
+          "title": "Designing UI/UX Interfaces",
+          "subtitle": "IBM / Coursera"
+        },
+        {
+          "title": "Diploma in Java Programming",
+          "subtitle": "Politécnico de Colombia"
+        },
+        {
+          "title": "Programming with Python",
+          "subtitle": "MinTIC / Sergio Arboleda University"
+        },
+        {
+          "title": "Java Programming Language",
+          "subtitle": "MinTIC / Sergio Arboleda University"
+        },
+        {
+          "title": "Mobile Programming Skills",
+          "subtitle": "MinTIC / Sergio Arboleda University"
+        }
+      ]
+    }
+  },  
+  "skillsSection": {
+    "technical": {
+      "title": "Technical Skills",
+      "items": [
+        {
+          "name": "JavaScript",
+          "experience": "6 years of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+          "altText": "JavaScript Logo"
+        },
+        {
+          "name": "HTML5",
+          "experience": "6 years of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+          "altText": "HTML5 Logo"
+        },
+        {
+          "name": "Bootstrap",
+          "experience": "5 years of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+          "altText": "Bootstrap Logo"
+        },
+        {
+          "name": "CSS",
+          "experience": "6 years of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+          "altText": "CSS Logo"
+        },
+        {
+          "name": "Java",
+          "experience": "3 years of experience",
+          "imageUrl": "https://images.vexels.com/media/users/3/166401/isolated/preview/b82aa7ac3f736dd78570dd3fa3fa9e24-icono-del-lenguaje-de-programacion-java.png?w=360",
+          "altText": "Java Logo"
+        },
+        {
+          "name": "C#",
+          "experience": "1 year of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+          "altText": "C# Logo"
+        },
+        {
+          "name": "Angular",
+          "experience": "1 year of experience",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+          "altText": "Angular Logo"
+        },
+        {
+          "name": "Oracle SQL",
+          "experience": "3 years of experience",
+          "imageUrl": "https://logos-world.net/wp-content/uploads/2020/09/Oracle-Symbol.png",
+          "altText": "Oracle SQL Logo"
+        },
+        {
+          "name": "Oracle Apex",
+          "experience": "1 year of experience",
+          "imageUrl": "https://viscosityna.com/hubfs/oracle-APEX-1.png",
+          "altText": "Oracle Apex Logo"
+        }
+      ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "items": [
+        {
+          "title": "Communication",
+          "description": "Strong verbal and written communication skills across technical and business environments.",
+          "icon": "chat-dots-fill",
+          "colorClass": "text-primary"
+        },
+        {
+          "title": "Team Leadership",
+          "description": "Experience leading cross-functional teams and promoting collaboration in diverse contexts.",
+          "icon": "people-fill",
+          "colorClass": "text-success"
+        },
+        {
+          "title": "Strategic Thinking",
+          "description": "Problem-solving mindset with a focus on business outcomes and innovation.",
+          "icon": "lightbulb-fill",
+          "colorClass": "text-warning"
+        },
+        {
+          "title": "Organization & Resilience",
+          "description": "High capacity to plan, prioritize, and adapt in dynamic and demanding environments.",
+          "icon": "calendar-check-fill",
+          "colorClass": "text-info"
+        },
+        {
+          "title": "Client Relationship Management",
+          "description": "Skilled in managing client needs and expectations using tools like Salesforce, Bitrix24, and MS Dynamics.",
+          "icon": "person-lines-fill",
+          "colorClass": "text-danger"
+        },
+        {
+          "title": "Active Listening",
+          "description": "Focused on understanding before responding, fostering empathy, clarity, and trust in communication.",
+          "icon": "ear-fill",
+          "colorClass": "text-secondary"
+        }
+      ]
+    }
+  },  
+  "navbar": {
+    "links": [
+      {
+        "text": "About Me",
+        "href": "#aboutme"
+      },
+      {
+        "text": "Education",
+        "href": "#education"
+      },
+      {
+        "text": "Technical Skills",
+        "href": "#skills"
+      },
+      {
+        "text": "Soft Skills",
+        "href": "#softskills"
+      },
+      {
+        "text": "Experience",
+        "href": "#experience"
+      },
+      {
+        "text": "Projects",
+        "href": "#projects"
+      },
+      {
+        "text": "Recommendations",
+        "href": "#recommendations"
+      }
+    ],
+    "language_selector": {
+      "button_text": "ES",
+      "href": "/es", 
+      "flag_class": "fi fi-es"
+    }
+  }
+}

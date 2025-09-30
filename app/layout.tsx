@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
-import Navbar from "./components/Navbar";
+//import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Diego Romero - Portfolio",
@@ -18,8 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
+      <body>        
         <main>{children}</main>
       </body>
     </html>
