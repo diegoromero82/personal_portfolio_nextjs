@@ -1,10 +1,24 @@
-"use client"
-import { useEffect } from "react"
+"use client";
+import { useEffect } from "react";
+import en from "../locales/en.json";
+import es from "../locales/es.json";
 
-export default function Experience() {
-  // Aseguramos que los estilos de animación funcionen
+// Definición de props
+type Props = { lang: string };
+
+export default function Experience({ lang }: Props) {
+  // 1. Selección del objeto de traducción (t) y datos
+  const t = lang === "es" ? es : en;
+  const experienceData = t.experienceSection;
+
+  // 2. Estilos CSS para la tarjeta flip
+  // Usamos useEffect para inyectar los estilos CSS específicos de la animación.
   useEffect(() => {
-    const style = document.createElement("style")
+    const styleId = "flip-card-styles";
+    if (document.getElementById(styleId)) return;
+
+    const style = document.createElement("style");
+    style.id = styleId;
     style.innerHTML = `
       .flip-card {
         background-color: transparent;
@@ -36,84 +50,65 @@ export default function Experience() {
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       }
       .flip-card-back {
-        background-color: #0d6efd;
+        background-color: #0d6efd; /* bg-primary */
         color: white;
         transform: rotateY(180deg);
       }
-    `
-    document.head.appendChild(style)
-  }, [])
+    `;
+    document.head.appendChild(style);
+    
+    // Cleanup function para evitar duplicados si el componente se desmonta
+    return () => {
+        const existingStyle = document.getElementById(styleId);
+        if (existingStyle) {
+            document.head.removeChild(existingStyle);
+        }
+    };
+  }, []);
 
   return (
     <section id="experience" className="py-5 bg-light">
       <div className="container">
-        <h2 className="text-center mb-5">Work Experience</h2>
+        {/* Título dinámico de la sección */}
+        <h2 className="text-center mb-5">{experienceData.title}</h2>
+
+        {/* Contenedor de las tarjetas con scroll horizontal (overflow-auto) */}
         <div className="d-flex overflow-auto flex-nowrap px-2 pb-4 gap-3">
 
-          {/* Example 1: DNP */}
-          <div className="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front d-flex flex-column justify-content-center p-3">
-                <img src="/images/logo_dnp.jpg" alt="DNP Logo" className="img-fluid mb-2" style={{ maxHeight: "60px" }} />
-                <h6 className="mb-1">Specialized Professional</h6>
-                <p className="text-muted mb-1 small">Departamento Nacional de Planeación</p>
-                <small className="text-muted">2024 - Present</small>
-              </div>
-              <div className="flip-card-back d-flex flex-column justify-content-center p-3">
-                <h6>Main Functions:</h6>
-                <ul className="small ps-3 mb-0 text-start">
-                  <li>Development and maintenance in Java, .NET and Angular.</li>
-                  <li>Database optimization (Oracle / SQL Server).</li>
-                  <li>Web services integration and UX improvements.</li>
-                </ul>
+          {/* Mapeo de la experiencia laboral */}
+          {experienceData.items.map((job: any) => (
+            <div key={job.id} className="flip-card">
+              <div className="flip-card-inner">
+
+                {/* Cara Frontal (Información Principal) */}
+                <div className="flip-card-front d-flex flex-column justify-content-center p-3">
+                  <img
+                    src={job.logoUrl}
+                    alt={job.logoAlt}
+                    className="img-fluid mb-2"
+                    style={{ maxHeight: "60px" }}
+                  />
+                  <h6 className="mb-1">{job.jobTitle}</h6>
+                  <p className="text-muted mb-1 small">{job.company}</p>
+                  <small className="text-muted">{job.dates}</small>
+                </div>
+
+                {/* Cara Trasera (Responsabilidades) */}
+                <div className="flip-card-back d-flex flex-column justify-content-center p-3">
+                  <h6>{experienceData.responsibilities_title}</h6>
+                  <ul className="small ps-3 mb-0 text-start">
+                    {/* Mapeo de las responsabilidades */}
+                    {job.responsibilities.map((resp: string, idx: number) => (
+                      <li key={idx}>{resp}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
+          ))}
 
-          {/* Example 2: Aerocivil */}
-          <div className="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front d-flex flex-column justify-content-center p-3">
-                <img src="/images/logo_aerocivil.png" alt="Aerocivil Logo" className="img-fluid mb-2" style={{ maxHeight: "60px" }} />
-                <h6 className="mb-1">FullStack Developer</h6>
-                <p className="text-muted mb-1 small">Aeronautica Civil</p>
-                <small className="text-muted">Mar 2024 – Nov 2024</small>
-              </div>
-              <div className="flip-card-back d-flex flex-column justify-content-center p-3">
-                <h6>Main Functions:</h6>
-                <ul className="small ps-3 mb-0 text-start">
-                  <li>Applications development with Oracle APEX.</li>
-                  <li>Migration of Excel-based systems to APEX.</li>
-                  <li>User training and support.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Example 3: SDA */}
-          <div className="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front d-flex flex-column justify-content-center p-3">
-                <img src="/images/logo_sda.jpg" alt="SDA Logo" className="img-fluid mb-2" style={{ maxHeight: "60px" }} />
-                <h6 className="mb-1">ICT Project Coordinator</h6>
-                <p className="text-muted mb-1 small">Secretaría Distrital de Ambiente</p>
-                <small className="text-muted">Feb 2021 – Jul 2024</small>
-              </div>
-              <div className="flip-card-back d-flex flex-column justify-content-center p-3">
-                <h6>Main Functions:</h6>
-                <ul className="small ps-3 mb-0 text-start">
-                  <li>End-to-end ICT project management.</li>
-                  <li>Supervision of contracts and budgets.</li>
-                  <li>Operational coordination and support.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* TODO: Add rest of companies (Megatel, FCM, In Motion, WB, Panasonic, Belltech, etc.) 
-              following the same flip-card structure */}
         </div>
       </div>
     </section>
-  )
+  );
 }

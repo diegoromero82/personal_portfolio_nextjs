@@ -1,205 +1,441 @@
 {
-  "about": {
-    "title": "¡Hola, soy Diego!",
-    "description": "Soy un profesional de la tecnología con más de 20 años de experiencia global en los sectores de TI, telecomunicaciones, desarrollo de software, servicio al cliente, seguridad electrónica y conectividad. He construido una carrera versátil en organizaciones públicas y privadas, combinando experiencia técnica con visión estratégica para ofrecer soluciones impactantes y escalables."
-  },
-  "skills": {
-    "keySkills": [
-      {
-        "title": "Project Management (5+ años)",
-        "description": "He gestionado y coordinado proyectos de transformación digital y TI en instituciones gubernamentales y empresas privadas, aplicando metodologías PMI y marcos de trabajo Ágiles. Mi alcance ha incluido investigación de mercado, planificación estratégica, presupuestos, supervisión de proveedores, liderazgo de equipos e informes técnicos y ejecutivos."
-      },
-      {
-        "title": "Full Stack Development (6+ años)",
-        "description": "Soy un desarrollador Full Stack con experiencia en Java, .NET, JavaScript y PL/SQL, y con dominio de bases de datos Oracle SQL y MS SQL Server. He trabajado con frameworks como Angular, Vaadin y Blazor, así como plataformas Low-Code como Oracle APEX. También manejo herramientas CMS como WordPress y Joomla. Contribuyo en todo el ciclo de vida del software, desde el análisis funcional hasta el despliegue y la mejora continua."
-      },
-      {
-        "title": "Commercial Experience (10+ años)",
-        "description": "He liderado procesos de ventas consultivas y gestionado cuentas corporativas en los sectores industrial, financiero y comercial. Mis responsabilidades incluyeron prospección y adquisición de clientes, asesoría técnica, diseño de soluciones, negociación de contratos, seguimiento y logro constante de objetivos de ventas y rentabilidad."
-      }
-    ],
-    "certification": {
-      "text": "Certificado en ISO/IEC 25000:2014 (SQuaRE).",
-      "link": "https://committee.iso.org/sites/jtc1sc7/home/projects/flagship-standards/iso-25000-square-series.html"
+    "about": {
+        "title": "¡Hola, soy Diego!",
+        "description": "Soy un profesional de la tecnología con más de 20 años de experiencia global en los sectores de TI, telecomunicaciones, desarrollo de software, servicio al cliente, seguridad electrónica y conectividad. He construido una carrera versátil en organizaciones públicas y privadas, combinando experiencia técnica con visión estratégica para ofrecer soluciones impactantes y escalables."
     },
-    "traits": "🧠 Estratégico • 🎯 Orientado a resultados • 💬 Comunicativo • 🌐 Con sede en Bogotá • 🚀 Abierto a trabajo remoto"
-  },  
-  "education": {
-    "title": "Educación",
-    "formal": {
-      "heading": "Educación Formal",
-      "items": [
-        {
-          "title": "Maestría en Gerencia de Proyectos",
-          "institution": "Institución Universitaria Politécnico Grancolombiano",
-          "status": "Actualmente en curso"
+    "skills": {
+        "keySkills": [
+            {
+                "title": "Project Management (5+ años)",
+                "description": "He gestionado y coordinado proyectos de transformación digital y TI en instituciones gubernamentales y empresas privadas, aplicando metodologías PMI y marcos de trabajo Ágiles. Mi alcance ha incluido investigación de mercado, planificación estratégica, presupuestos, supervisión de proveedores, liderazgo de equipos e informes técnicos y ejecutivos."
+            },
+            {
+                "title": "Full Stack Development (6+ años)",
+                "description": "Soy un desarrollador Full Stack con experiencia en Java, .NET, JavaScript y PL/SQL, y con dominio de bases de datos Oracle SQL y MS SQL Server. He trabajado con frameworks como Angular, Vaadin y Blazor, así como plataformas Low-Code como Oracle APEX. También manejo herramientas CMS como WordPress y Joomla. Contribuyo en todo el ciclo de vida del software, desde el análisis funcional hasta el despliegue y la mejora continua."
+            },
+            {
+                "title": "Commercial Experience (10+ años)",
+                "description": "He liderado procesos de ventas consultivas y gestionado cuentas corporativas en los sectores industrial, financiero y comercial. Mis responsabilidades incluyeron prospección y adquisición de clientes, asesoría técnica, diseño de soluciones, negociación de contratos, seguimiento y logro constante de objetivos de ventas y rentabilidad."
+            }
+        ],
+        "certification": {
+            "text": "Certificado en ISO/IEC 25000:2014 (SQuaRE).",
+            "link": "https://committee.iso.org/sites/jtc1sc7/home/projects/flagship-standards/iso-25000-square-series.html"
         },
-        {
-          "title": "Especialización en Desarrollo de Software",
-          "institution": "Corporación Universitaria Minuto de Dios (Uniminuto)",
-          "status": null
-        },        
-        {
-          "title": "Especialización en Gerencia Empresarial",
-          "institution": "Institución Universitaria Politécnico Grancolombiano",
-          "status": null
-        },
-        {
-          "title": "Administración de Empresas",
-          "institution": "Institución Universitaria Politécnico Grancolombiano",
-          "status": null
-        },
-        {
-          "title": "Ingeniería Electrónica",
-          "institution": "Universidad Manuela Beltrán",
-          "status": null
-        },
-        {
-          "title": "Tecnología en Gestión de Mercados",
-          "institution": "Servicio Nacional de Aprendizaje (SENA)",
-          "status": null
-        }
-      ]
+        "traits": "🧠 Estratégico • 🎯 Orientado a resultados • 💬 Comunicativo • 🌐 Con sede en Bogotá • 🚀 Abierto a trabajo remoto"
     },
-    "nonFormal": {
-      "heading": "Educación No Formal",
-      "items": [
-        {
-          "title": "Certificación ISO/IEC 25000:2014",
-          "subtitle": "Auditor Interno en Calidad de Software"
-        },        
-        {
-          "title": "Diplomado en Gerencia de Proyectos de Ingeniería",
-          "subtitle": "Universidad Manuela Beltrán"
+    "education": {
+        "title": "Educación",
+        "formal": {
+            "heading": "Educación Formal",
+            "items": [
+                {
+                    "title": "Maestría en Gerencia de Proyectos",
+                    "institution": "Institución Universitaria Politécnico Grancolombiano",
+                    "status": "Actualmente en curso"
+                },
+                {
+                    "title": "Especialización en Desarrollo de Software",
+                    "institution": "Corporación Universitaria Minuto de Dios (Uniminuto)",
+                    "status": null
+                },
+                {
+                    "title": "Especialización en Gerencia Empresarial",
+                    "institution": "Institución Universitaria Politécnico Grancolombiano",
+                    "status": null
+                },
+                {
+                    "title": "Administración de Empresas",
+                    "institution": "Institución Universitaria Politécnico Grancolombiano",
+                    "status": null
+                },
+                {
+                    "title": "Ingeniería Electrónica",
+                    "institution": "Universidad Manuela Beltrán",
+                    "status": null
+                },
+                {
+                    "title": "Tecnología en Gestión de Mercados",
+                    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+                    "status": null
+                }
+            ]
         },
-        {
-          "title": "Ruta hacia la Excelencia en la Dirección de Proyectos",
-          "subtitle": "PUC Chile / Coursera"
-        },
-        {
-          "title": "Diseño de Interfaces UI/UX",
-          "subtitle": "IBM / Coursera"
-        },
-        {
-          "title": "Diplomado en Programación Java",
-          "subtitle": "Politécnico de Colombia"
-        },
-        {
-          "title": "Programación con Python",
-          "subtitle": "MinTIC / Universidad Sergio Arboleda"
-        },
-        {
-          "title": "Lenguaje de Programación Java",
-          "subtitle": "MinTIC / Universidad Sergio Arboleda"
-        },
-        {
-          "title": "Habilidades en Programación Móvil",
-          "subtitle": "MinTIC / Universidad Sergio Arboleda"
+        "nonFormal": {
+            "heading": "Educación No Formal",
+            "items": [
+                {
+                    "title": "Certificación ISO/IEC 25000:2014",
+                    "subtitle": "Auditor Interno en Calidad de Software"
+                },
+                {
+                    "title": "Diplomado en Gerencia de Proyectos de Ingeniería",
+                    "subtitle": "Universidad Manuela Beltrán"
+                },
+                {
+                    "title": "Ruta hacia la Excelencia en la Dirección de Proyectos",
+                    "subtitle": "PUC Chile / Coursera"
+                },
+                {
+                    "title": "Diseño de Interfaces UI/UX",
+                    "subtitle": "IBM / Coursera"
+                },
+                {
+                    "title": "Diplomado en Programación Java",
+                    "subtitle": "Politécnico de Colombia"
+                },
+                {
+                    "title": "Programación con Python",
+                    "subtitle": "MinTIC / Universidad Sergio Arboleda"
+                },
+                {
+                    "title": "Lenguaje de Programación Java",
+                    "subtitle": "MinTIC / Universidad Sergio Arboleda"
+                },
+                {
+                    "title": "Habilidades en Programación Móvil",
+                    "subtitle": "MinTIC / Universidad Sergio Arboleda"
+                }
+            ]
         }
-      ]
-    }
-  },  
-  "skillsSection": {
-    "technical": {
-      "title": "Habilidades Técnicas",
-      "items": [
-        {
-          "name": "JavaScript",
-          "experience": "6 años de experiencia",
-          "imageUrl": "...",
-          "altText": "Logo JavaScript"
-        },        
-        {
-          "name": "C#",
-          "experience": "1 año de experiencia",
-          "imageUrl": "...",
-          "altText": "Logo C#"
-        },
-        {
-          "name": "Oracle Apex",
-          "experience": "1 año de experiencia",
-          "imageUrl": "...",
-          "altText": "Logo Oracle Apex"
-        }
-      ]
     },
-    "soft": {
-      "title": "Habilidades Blandas",
-      "items": [
-        {
-          "title": "Comunicación",
-          "description": "Sólidas habilidades de comunicación verbal y escrita en entornos técnicos y de negocios.",
-          "icon": "chat-dots-fill",
-          "colorClass": "text-primary"
+    "skillsSection": {
+        "technical": {
+            "title": "Habilidades Técnicas",
+            "items": [
+                {
+                    "name": "JavaScript",
+                    "experience": "6 años de experiencia",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+                    "altText": "JavaScript Logo"
+                },
+                {
+                    "name": "HTML5",
+                    "experience": "6 años de experiencia",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+                    "altText": "HTML5 Logo"
+                },
+                {
+                    "name": "Bootstrap",
+                    "experience": "5 años de experiencia",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+                    "altText": "Bootstrap Logo"
+                },
+                {
+                    "name": "CSS",
+                    "experience": "6 años de experiencia",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+                    "altText": "CSS Logo"
+                },
+                {
+                    "name": "Java",
+                    "experience": "3 años de experiencia",
+                    "imageUrl": "https://images.vexels.com/media/users/3/166401/isolated/preview/b82aa7ac3f736dd78570dd3fa3fa9e24-icono-del-lenguaje-de-programacion-java.png?w=360",
+                    "altText": "Java Logo"
+                },
+                {
+                    "name": "C#",
+                    "experience": "1 year of experience",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+                    "altText": "C# Logo"
+                },
+                {
+                    "name": "Angular",
+                    "experience": "1 year of experience",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+                    "altText": "Angular Logo"
+                },
+                {
+                    "name": "Oracle SQL",
+                    "experience": "3 años de experiencia",
+                    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/09/Oracle-Symbol.png",
+                    "altText": "Oracle SQL Logo"
+                },
+                {
+                    "name": "Oracle Apex",
+                    "experience": "1 year of experience",
+                    "imageUrl": "https://viscosityna.com/hubfs/oracle-APEX-1.png",
+                    "altText": "Oracle Apex Logo"
+                }
+            ]
         },
-        {
-          "title": "Liderazgo de Equipos",
-          "description": "Experiencia liderando equipos multifuncionales y promoviendo la colaboración en diversos contextos.",
-          "icon": "people-fill",
-          "colorClass": "text-success"
-        },
-        {
-          "title": "Pensamiento Estratégico",
-          "description": "Mentalidad de resolución de problemas enfocada en resultados de negocio e innovación.",
-          "icon": "lightbulb-fill",
-          "colorClass": "text-warning"
-        },
-        {
-          "title": "Organización y Resiliencia",
-          "description": "Alta capacidad de planificar, priorizar y adaptarse en entornos dinámicos y exigentes.",
-          "icon": "calendar-check-fill",
-          "colorClass": "text-info"
-        },
-        {
-          "title": "Gestión de Relación con Clientes",
-          "description": "Hábil en la gestión de necesidades y expectativas de clientes usando herramientas como Salesforce, Bitrix24 y MS Dynamics.",
-          "icon": "person-lines-fill",
-          "colorClass": "text-danger"
-        },
-        {
-          "title": "Escucha Activa",
-          "description": "Enfocado en comprender antes de responder, fomentando la empatía, claridad y confianza en la comunicación.",
-          "icon": "ear-fill",
-          "colorClass": "text-secondary"
+        "soft": {
+            "title": "Habilidades Blandas",
+            "items": [
+                {
+                    "title": "Comunicación",
+                    "description": "Sólidas habilidades de comunicación verbal y escrita en entornos técnicos y de negocios.",
+                    "icon": "chat-dots-fill",
+                    "colorClass": "text-primary"
+                },
+                {
+                    "title": "Liderazgo de Equipos",
+                    "description": "Experiencia liderando equipos multifuncionales y promoviendo la colaboración en diversos contextos.",
+                    "icon": "people-fill",
+                    "colorClass": "text-success"
+                },
+                {
+                    "title": "Pensamiento Estratégico",
+                    "description": "Mentalidad de resolución de problemas enfocada en resultados de negocio e innovación.",
+                    "icon": "lightbulb-fill",
+                    "colorClass": "text-warning"
+                },
+                {
+                    "title": "Organización y Resiliencia",
+                    "description": "Alta capacidad de planificar, priorizar y adaptarse en entornos dinámicos y exigentes.",
+                    "icon": "calendar-check-fill",
+                    "colorClass": "text-info"
+                },
+                {
+                    "title": "Gestión de Relación con Clientes",
+                    "description": "Hábil en la gestión de necesidades y expectativas de clientes usando herramientas como Salesforce, Bitrix24 y MS Dynamics.",
+                    "icon": "person-lines-fill",
+                    "colorClass": "text-danger"
+                },
+                {
+                    "title": "Escucha Activa",
+                    "description": "Enfocado en comprender antes de responder, fomentando la empatía, claridad y confianza en la comunicación.",
+                    "icon": "ear-fill",
+                    "colorClass": "text-secondary"
+                }
+            ]
         }
-      ]
+    },
+    "navbar": {
+        "links": [
+            {
+                "text": "Acerca de Mí",
+                "href": "#aboutme"
+            },
+            {
+                "text": "Educación",
+                "href": "#education"
+            },
+            {
+                "text": "Habilidades Técnicas",
+                "href": "#skills"
+            },
+            {
+                "text": "Habilidades Blandas",
+                "href": "#softskills"
+            },
+            {
+                "text": "Experiencia",
+                "href": "#experience"
+            },
+            {
+                "text": "Proyectos",
+                "href": "#projects"
+            },
+            {
+                "text": "Recomendaciones",
+                "href": "#recommendations"
+            }
+        ],
+        "language_selector": {
+            "button_text": "EN",
+            "href": "/en",
+            "flag_class": "fi fi-us"
+        }
+    },
+    "experienceSection": {
+        "title": "Experiencia Laboral",
+        "responsibilities_title": "Responsabilidades:",
+        "items": [
+            {
+                "id": 1,
+                "jobTitle": "Profesional Especializado",
+                "company": "Departamento Nacional de Planeación",
+                "dates": "2024 – Presente",
+                "logoUrl": "/images/logo_dnp.jpg",
+                "logoAlt": "DNP Logo",
+                "responsibilities": [
+                    "Desarrollo y mantenimiento de software usando Java, .NET y Angular.",
+                    "Corrección de errores (Bug fixing) y optimización de bases de datos (Oracle y SQL Server).",
+                    "Integración de servicios web y mejoras en la experiencia de usuario (UX)."
+                ]
+            },
+            {
+                "id": 2,
+                "jobTitle": "Ingeniero Desarrollador Full Stack",
+                "company": "Unidad Administrativa Especial de Aeronáutica Civil",
+                "dates": "Marzo 2024 – Noviembre 2024",
+                "logoUrl": "/images/logo_aerocivil.png",
+                "logoAlt": "Aerocivil Logo",
+                "responsibilities": [
+                    "Desarrollo y modernización de aplicaciones utilizando Oracle APEX.",
+                    "Sistematización y sustitución de procesos basados en Excel.",
+                    "Soporte y capacitación a usuarios."
+                ]
+            },
+            {
+                "id": 3,
+                "jobTitle": "Coordinador de Proyectos TIC",
+                "company": "Secretaría Distrital de Ambiente",
+                "dates": "Febrero 2021 – Julio 2024",
+                "logoUrl": "/images/logo_sda.jpg",
+                "logoAlt": "SDA Logo",
+                "responsibilities": [
+                    "Gestión integral de proyectos de TIC.",
+                    "Supervisión contractual y presupuestal.",
+                    "Coordinación y soporte operacional."
+                ]
+            },
+            {
+                "id": 4,
+                "jobTitle": "Ingeniero Desarrollador Full Stack",
+                "company": "Federación Colombiana de Municipios",
+                "dates": "Agosto 2022 – Diciembre 2023",
+                "logoUrl": "/images/logo_fcm.jpg",
+                "logoAlt": "FCM Logo",
+                "responsibilities": [
+                    "Mantenimiento de la aplicación SIMIT usando Java, JavaScript y Bootstrap.",
+                    "Ajustes y optimización de bases de datos con Oracle PL/SQL.",
+                    "Corrección de errores y mejoras de diseño responsivo."
+                ]
+            },
+            {
+                "id": 5,
+                "jobTitle": "Coordinador Técnico / Ingeniero Full Stack",
+                "company": "Megatel SAS",
+                "dates": "Julio 2019 – Enero 2021",
+                "logoUrl": "/images/logo_megatel.png",
+                "logoAlt": "Megatel Logo",
+                "responsibilities": [
+                    "Liderazgo y coordinación de proyectos tecnológicos.",
+                    "Soporte técnico de preventa y propuestas comerciales.",
+                    "Supervisión de implementación y desarrollo de soluciones."
+                ]
+            },
+            {
+                "id": 6,
+                "jobTitle": "Gerente de Cuentas",
+                "company": "In Motion – Grupo In Motion",
+                "dates": "Enero 2019 – Julio 2019",
+                "logoUrl": "/images/logo_inmotion.png",
+                "logoAlt": "Inmotion Logo",
+                "responsibilities": [
+                    "Expansión de portafolio de clientes.",
+                    "Cierre de oportunidades.",
+                    "Fortalecimiento de las relaciones comerciales."
+                ]
+            },
+            {
+                "id": 7,
+                "jobTitle": "Gerente de Cuentas",
+                "company": "Walter Bridge S.A.",
+                "dates": "Mayo 2018 – Enero 2019",
+                "logoUrl": "/images/logo_wb.jpg",
+                "logoAlt": "WB Logo",
+                "responsibilities": [
+                    "Crecimiento sostenido del portafolio de clientes.",
+                    "Cierre de proyectos clave de telecomunicaciones.",
+                    "Reconocimiento por calidad de soporte técnico y comercial."
+                ]
+            },
+            {
+                "id": 8,
+                "jobTitle": "Supervisor de Ventas",
+                "company": "Panasonic Latin America",
+                "dates": "Septiembre 2015 – Marzo 2018",
+                "logoUrl": "/images/logo_panasonic.png",
+                "logoAlt": "Panasonic Logo",
+                "responsibilities": [
+                    "Expansión de marca a nivel nacional.",
+                    "Construcción de relaciones sólidas con canales clave.",
+                    "Incremento en ventas de soluciones de comunicación."
+                ]
+            },
+            {
+                "id": 9,
+                "jobTitle": "Gerente de Cuentas",
+                "company": "Belltech S.A.",
+                "dates": "Julio 2013 – Septiembre 2015",
+                "logoUrl": "/images/logo_belltech.jpg",
+                "logoAlt": "Belltech Logo",
+                "responsibilities": [
+                    "Apertura y fortalecimiento de cuentas en el sector financiero.",
+                    "Entrega exitosa de proyectos.",
+                    "Reconocimiento de clientes por enfoque consultivo."
+                ]
+            }
+        ]
+    },
+    "projectsSection": {
+        "title": "Proyectos",
+        "features_subtitle": "Características Principales:",
+        "items": [
+            {
+                "id": 1,
+                "col_class": "col-md-6",
+                "title": "Portal de Contenido y Radio Online",
+                "text": "Una plataforma completa basada en WordPress que simula una estación de radio online y un centro comunitario interactivo.",
+                "features": [
+                    "🎵 Transmisión de audio en vivo con un reproductor intuitivo.",
+                    "💬 Chat en tiempo real para interacción con los usuarios.",
+                    "📰 Blog para noticias, artículos y eventos.",
+                    "📩 Formulario de suscripción a Newsletter + botón de WhatsApp.",
+                    "⚙️ Gestionado completamente a través de WordPress CMS para fácil escalabilidad."
+                ]
+            },
+            {
+                "id": 2,
+                "col_class": "col-md-6",
+                "title": "Sistema de Gestión de Relación con Clientes (CRM)",
+                "text": "Un CRM completamente funcional construido en Oracle APEX para optimizar y centralizar la gestión de las relaciones con los clientes.",
+                "features": [
+                    "👥 Registro y gestión integral de clientes.",
+                    "📊 Seguimiento de oportunidades desde el primer contacto hasta el cierre.",
+                    "📞 Historial completo de interacciones (llamadas, correos, reuniones).",
+                    "🔒 Integración segura y eficiente con Base de Datos Oracle."
+                ]
+            },
+            {
+                "id": 3,
+                "col_class": "col-md-6",
+                "title": "Prueba de Concepto de Arquitectura de Software",
+                "text": "Una prueba de concepto (PoC) técnica para demostrar la aplicación de los principios de Arquitectura Limpia (Clean Architecture) utilizando .NET y Blazor.",
+                "features": [
+                    "⚙️ Desarrollado con .NET, Blazor para la interfaz de usuario y MS SQL Server para la gestión de datos.",
+                    "🏛️ Arquitectura Limpia garantizando código modular, testeable y mantenible.",
+                    "📚 Diseñado como base de conocimiento y repositorio de programas para el área de desarrollo del DNP.",
+                    "🌐 Integración de recursos externos (CDN de MinTic) para cumplir con requerimientos reales de proyecto."
+                ]
+            },
+            {
+                "id": 4,
+                "col_class": "col-md-6",
+                "title": "Portafolio Dinámico y Multilenguaje (Next.js)",
+                "text": "Un portafolio personal moderno y responsivo, construido desde cero con las últimas tecnologías web, enfocado en una internacionalización (i18n) eficiente y una arquitectura de componentes limpia.",
+                "features": [
+                    "⚛️ Desarrollado con Next.js 14 y TypeScript para seguridad de tipos y beneficios de renderizado del lado del servidor.",
+                    "🌐 Configuración completa de internacionalización (i18n) que permite un cambio de idioma fluido entre Español e Inglés.",
+                    "🧱 Estructura de componentes modular que facilita la escalabilidad y la gestión de contenido a través de archivos JSON.",
+                    "📱 Diseño totalmente responsivo utilizando clases de Bootstrap 5, optimizado para todos los tamaños de dispositivos.",
+                    "🚀 Código limpio y conciso utilizando componentes funcionales modernos de React."
+                ]
+            }
+        ]
+    },
+    "footerSection": {
+        "copyright": "© 2025 Diego Romero - Portafolio Dinámico",
+        "social_title": "Conecta conmigo:",
+        "social_links": [
+            {
+                "icon_class": "bi bi-linkedin",
+                "href": "https://www.linkedin.com/in/tu_perfil",
+                "alt": "LinkedIn"
+            },
+            {
+                "icon_class": "bi bi-github",
+                "href": "https://github.com/tu_usuario",
+                "alt": "GitHub"
+            },
+            {
+                "icon_class": "bi bi-envelope-fill",
+                "href": "mailto:tu.email@example.com",
+                "alt": "Correo Electrónico"
+            }
+        ]
     }
-  },  
-  "navbar": {
-    "links": [
-      {
-        "text": "Acerca de Mí",
-        "href": "#aboutme"
-      },
-      {
-        "text": "Educación",
-        "href": "#education"
-      },
-      {
-        "text": "Habilidades Técnicas",
-        "href": "#skills"
-      },
-      {
-        "text": "Habilidades Blandas",
-        "href": "#softskills"
-      },
-      {
-        "text": "Experiencia",
-        "href": "#experience"
-      },
-      {
-        "text": "Proyectos",
-        "href": "#projects"
-      },
-      {
-        "text": "Recomendaciones",
-        "href": "#recommendations"
-      }
-    ],
-    "language_selector": {
-      "button_text": "EN",
-      "href": "/en", 
-      "flag_class": "fi fi-us"
-    }
-  }
 }

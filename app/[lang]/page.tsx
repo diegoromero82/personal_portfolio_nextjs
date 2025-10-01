@@ -8,20 +8,19 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 
 export default async function Home({ params }: { params: { lang: string } }) {
-  const lang = await params;
+  
+  const { lang } = await params;   
 
   return (
-    <main>
-      <Navbar lang={lang}/>
+    <main>      
+      <Navbar lang={lang} />
       <AboutMe lang={lang} />
       <Education lang={lang} />
       <Skills lang={lang} />
       <SoftSkills lang={lang} />
       <Experience lang={lang} />
-      <Projects lang={lang} />      
+      <Projects lang={lang} /> 
       <Footer lang={lang} />
     </main>
   );
 }
-
-
